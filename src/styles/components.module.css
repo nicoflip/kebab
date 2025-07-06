@@ -1,0 +1,170 @@
+/* Styles pour les sections */
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+/* Styles pour le bouton flottant */
+.floatingCart {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #e74c3c;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.cartIcon {
+  position: relative;
+}
+
+.cartBadge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #fff;
+  color: #e74c3c;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Styles pour les éléments du menu */
+.menuItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.itemImage img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.itemContent {
+  flex: 1;
+}
+
+.itemPrice {
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.itemActions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.quantitySelector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantityBtn {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.addToCartBtn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Styles pour les éléments du panier */
+.cartItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemInfo h4 {
+  margin: 0 0 0.5rem 0;
+}
+
+.itemInfo p {
+  margin: 0.25rem 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.itemActions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantity {
+  margin: 0 0.5rem;
+}
+
+.removeBtn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+/* Styles pour le récapitulatif du panier */
+.cartSummary {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #f8f9fa;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.checkoutBtn {
+  width: 100%;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+} 
